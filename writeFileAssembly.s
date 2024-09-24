@@ -19,3 +19,6 @@ main:
 	MOV edx,1024
 	INT 80h
 	
+	MOV eax, 1
+	MOV ebx, 0
+	INT 80h
